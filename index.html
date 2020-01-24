@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>David Porter Portfolio</title>
+        <meta name="description" content="David Porter, Homepage, Portfolio">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/over750.css" media="screen and (min-width: 750px)">
+    </head>
+    <body>
+        <header>
+            <button class="menu-bars" onclick="toggleNav()"><i class="fa fa-bars fa-3x"></i></button>
+            <nav>
+                <ul>
+                    <a href="#"><li>HOME</li></a>
+                    <a href="#projects-container"><li>PROJEKTE</li></a>
+                    <a href="#about-me-container"><li>ÜBER MICH</li></a>
+                    <a href="#my-skillset-container"><li>MEIN SKILLSET</li></a>                    
+                    <a href="#currently-studying-container"><li>DERZEIT AM STUDIEREN</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="banner">
+                <img src="img/david-porter.jpg" alt="David Porter">
+                <h1>DAVID PORTER</h1>
+                <h3>FRONT-END WEB DEVELOPER</h3>
+                <p>Info: Webseite ist in Bearbeitung</p>
+                <a href="#projects-container"><i class="fa fa-arrow-down fa-2x"></i></a>
+                <div id="particles-js"></div>
+            </section>
+            <section id="projects-container">
+                <h1 class="heading color-light-blue">PROJEKTE</h1>
+                <div id="projects" class="color-dark-blue">
+                    <article id="memory-game" class="project">
+                        <h3>MEMORY GAME</h3>
+                        <img src="img/memory-game.PNG" alt="Memory Game">
+                        <p>Dies ist mein erstes selbst programmiertes Spiel. <br>
+                        Geschrieben mit HTML5, CSS3 und ES6.</p>
+                        <p><a href="projects/fend-memory-game/index.html" target="_blank">Play Memory Game</a></p>
+                    </article>
+                    <article id="arcade" class="project">
+                        <h3>ARCADE GAME CLONE</h3>
+                        <img src="img/classic-arcade-game-clone.PNG" alt="Classic Arcade Game Clone">
+                        <p>Dies ist mein erstes Spiel basierend auf <br>
+                            Objektorientierter Programmierung (OOP) mit ES6.
+                        </p>
+                        <p><a href="projects/fend-classic-arcade-game-clone/index.html" target="_blank">Play Arcade Game</a></p>
+                    </article>
+                    <article id="jasmine" class="project">
+                        <h3>FEED READER - JASMINE TEST SUITE</h3>
+                        <img src="img/feed-reader-testing.PNG" alt="Feed Reder Testing">
+                        <p>Dies ist meine erste, mit Jasmine geschriebene, "Test Suite".</p>
+                        <p><a href="projects/fend-feed-reader-testing/index.html" target="_blank">Feed Reader</a></p>
+                    </article>
+                </div>
+                <!--<p id="github-account"><a href="#">Check out my GitHub Account</a></p>-->
+            </section>
+            <section id="about-me-container">
+                <h1 class="heading">ÜBER MICH</h1>
+                <div id="about-me">
+                    <img src="img/david-porter.jpg" alt="Testing">
+                    <p>Hallo und willkommen auf meinem Portfolio! <br>
+                        <br>
+                        Ich bin gelernter Fachinformatiker (Systemintegration) und Front-End Web Developer. <br>
+                        Im Dezember 2019 habe ich mein Studium "Front-End Web Developer Nanodegree"<br>
+                        bei <a href="https://www.udacity.com/" target="_blank">Udacity</a> erfolgreich abgeschlossen <a href="https://confirm.udacity.com/HLJCM5FU" target="_blank">(zum Zertifikat)</a>. <br>
+                        <br>
+                        Als Tierliebhaber und naturverbundener Mensch empfinde ich die Themen Nachhaltigkeit,<br>
+                        Tierschutz und saubere Energie als "die wichtigstens Themen unserer Zeit".<br>
+                        <br>
+                        Des weiteren interessiere ich mich sehr für "neue" Technologien, wie z.B. die der Blockchain.<br>
+                        <br>
+                        Sie wollen mehr über mich erfahren? Über eine E-Mail freue ich mich jederzeit. <a href="#footer"> (Kontakt)</a>
+                    </p>
+                </div>
+            </section>
+            <section id="my-skillset-container">
+                <h1 class="heading">MEIN SKILLSET</h1>
+                <article id="skillset">
+                    <i class="fa fa-html5 fa-2x" aria-hidden="true"> HTML5</i>
+                    <i class="fa fa-css3 fa-2x" aria-hidden="true"> CSS3</i>
+                    <!--<i class="fa fa-github fa-2x" aria-hidden="true"> GIT</i>-->
+                </article>
+                <article>
+                    <!--<h2 id="js-heading" class="heading">JAVASCRIPT</h2>-->
+                    <div id="skillset-js">
+                        <div id="js-picture">
+                            <h2 id="js-heading">JAVASCRIPT</h2>
+                            <!--<img src="img/matrix.jpg" alt="Matrix Photo by Markus Spiske on Unsplash">-->
+                        </div>
+                        <ul>
+                            <li>ECMA2015 / ES6</li>
+                            <li>Functional Development</li>
+                            <li>Object-Oriented Development</li>
+                            <li>Test-Driven Development (Jasmine)</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+            <section id="currently-studying-container">
+                <h1 class="heading">DERZEIT AM STUDIEREN</h1>
+                <ul>
+                    <li>REACT</li>
+                    <!--<li>ANGULAR</li>-->
+                    <li>ACCESSABILITY</li>
+                </ul>
+            </section>
+        </main>
+        <footer id="footer">
+            <ul>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i><span>d_porter@outlook.de</span></li>
+                <a href="impressum.html"><li>Impressum</li></a>
+                <a href="datenschutz.html"><li>Datenschutz</li></a>
+            </ul>
+            <p><i class=" fa fa-copyright"></i> 2020 DAVID PORTER. ALL RIGHTS RESERVED.</p>
+        </footer>
+        <script src="js/particles.js-master/particles.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
