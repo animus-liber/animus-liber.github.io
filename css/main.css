@@ -178,6 +178,7 @@ main {
     margin: 1em;
     box-shadow: 5px 5px 10px lightblue;
     transition: 0.5s;
+    width: 80%;
 }
 
 .project:hover {

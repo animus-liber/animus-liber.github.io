@@ -9,6 +9,10 @@ button {
     min-height: 72px;
 }
 
+.project {
+    width: 30%;
+}
+
 #about-me {    
     flex-direction: row;
 }
