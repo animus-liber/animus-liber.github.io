@@ -13,6 +13,10 @@ button {
     width: 60%;
 }
 
+#about-me p {
+    width: 80%;
+}
+
 #js-picture {
     background-image: url('../img/matrix-large.jpg');
 }
@@ -35,5 +39,9 @@ button {
     
     #about-me img {
         margin: 1em;
+    }
+
+    #about-me p {
+        width: 80%;
     }
 }
