@@ -44,4 +44,11 @@ button {
     #about-me p {
         width: 80%;
     }
+
+    #js-picture {
+        width: 70%;
+    }
+    #skillset-js ul {
+        width: 70%;
+    }
 }
