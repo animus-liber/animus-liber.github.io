@@ -194,6 +194,7 @@ main {
 
 .project p {
     margin: 5% auto;
+    max-width: 80%;
 }
 
 .project a {
