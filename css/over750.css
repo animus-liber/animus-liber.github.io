@@ -9,8 +9,22 @@ button {
     min-height: 72px;
 }
 
-.project {
-    width: 30%;
+@media screen and (min-width: 750px) and (max-width: 950px) {
+    .project {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1245px) {
+    .project {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1246px) {
+    .project {
+        width: 30%;
+    }
 }
 
 #about-me {    
