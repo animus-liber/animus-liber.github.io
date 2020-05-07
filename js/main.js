@@ -1,3 +1,4 @@
+$(document).ready(() => {
 /* --- Navigation Bar --- */
 /* Set the width of the navigation to 250px and the left margin of the page content to 250px */
 function openNav() {
@@ -34,6 +35,18 @@ function openNav() {
       closeNav(); 
     }
   });
+
+  /* Slide animation on Scroll */  
+    $(window).scroll(function() {
+      $(".slide-up-anim").each(function(){
+        let pos = $(this).offset().top;
+        
+        let winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide-up");
+        }
+      });
+    });
 
   
 
@@ -148,3 +161,4 @@ function openNav() {
     },
     "retina_detect": true
   });
+});
