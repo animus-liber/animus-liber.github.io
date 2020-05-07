@@ -26,6 +26,11 @@ function openNav() {
       }
   }
 
+  /* Add eventlistener for navigation menu button*/
+  $(".menu-bars").click(() => {
+    toggleNav();
+  });
+
   /* Close Menu when Link is clicked*/
   const menuLinks = document.querySelector("nav ul");
 
