@@ -238,6 +238,10 @@ main {
     text-align: center;
 }
 
+#about-me img {
+    max-width: 40%;
+}
+
 
 /* --- My Skillset --- */
 #my-skillset-container {

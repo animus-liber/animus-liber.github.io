@@ -17,6 +17,10 @@ button {
     width: 80%;
 }
 
+#about-me img {
+    max-width: 100%;
+}
+
 #js-picture {
     background-image: url('../img/matrix-large.jpg');
 }
